@@ -15,8 +15,8 @@ Pod::Spec.new do |spec|
   spec.license               = { :type => 'MIT', :file => 'LICENSE' }
   spec.author                = { 'Clement T' => 'chiunam@gmail.com' }
   spec.social_media_url      = 'https://twitter.com/chiunam'
-  spec.platform              = :ios, '8.0'
-  spec.ios.deployment_target = '8.0'
+  spec.platform              = :ios, '7.0'
+  spec.ios.deployment_target = '7.0'
   spec.source                = { :git => 'https://github.com/chiunam/CTAssetsPickerController.git', :tag => 'v3.3.2-alpha' }
   spec.public_header_files   = 'CTAssetsPickerController/*.h'
   spec.source_files          = 'CTAssetsPickerController/**/*.{h,m}'
